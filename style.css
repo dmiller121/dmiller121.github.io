@@ -10,36 +10,66 @@
 .flex-right {
     width: 80%;
 }
-h1 {
-  font-size: 36px;
-  font-variant: small-caps;
-  font-weight: lighter;
-  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
-}
-h2 {
-  font-size: 24px;
-  font-variant: small-caps;
-  font-weight: lighter;
-  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
-}
 
-h3 {
-    background-color: #da61a4;
-    text-align: center;
-    font-size: 22px;
-    border: 1px solid black;
-    padding-bottom: 0;
-}
-
-h4 {
+.ltc-h1 {
+    font-size: 36px;
     text-align: left;
+    font-variant: small-caps;
+    font-weight: lighter;
+    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+}
+
+.ltc-h2 {
+    text-align: left;
+    font-size: 24px;
+    font-variant: small-caps;
+    font-weight: lighter;
+    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+}
+
+.ltc-p {
+    text-align: left;
+    font-size: 16px;
+    font-variant: small-caps;
+    font-weight: lighter;
+    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+}
+
+.listing_header {
+    font-size: 26px;
+    font-variant: small-caps;
+    font-weight: lighter;
+    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
+    text-align: center;
+    padding: 8px;
+    color: black;
+    background: radial-gradient(#e8b0cd, #eb8dbc);
+
+}
+
+.ltc-category-menu-header {
+    color: #F2F7F2;
+    font-size: 22px;
+    text-align: center;
+    border: 1px solid black;
+    border-bottom: 2px solid black;
+}
+
+.desc-box {
+    border: 1px solid black;
+    margin-bottom: 5px;
+}
+
+.ltc-h4 {
+    text-align: left;
+    width: 100%;
     padding-bottom: 0;
     font-variant: small-caps;
     font-weight: lighter;
     font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
 }
 
-ul {
+.ltc-ul {
     list-style-type: none;
     margin: 0;
     border: 1px solid black;
@@ -51,7 +81,7 @@ ul {
     background: linear-gradient(#da61a4, #e8b0cd);
 }
 
-li a {
+.ltc-li a {
     display: block;
     border-bottom: 1px solid black;
     margin-top: 1px;
@@ -65,46 +95,7 @@ li a {
 }
 
 /* Link color on hover */
-li a:hover {
+.ltc-li a:hover {
     background: #F2F7F2;
     color: black;
-}
-
-p {
-    text-align: left;
-    font-size: 16px;
-    font-variant: small-caps;
-    font-weight: lighter;
-    font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
-}
-
-strong {
-  margin: 0;
-  padding: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-bottom: 0;
-  padding-top: 0;
-}
-.listing_header {
-  font-size: 26px;
-  font-variant: small-caps;
-  font-weight: lighter;
-  font-family: "Big Caslon", "Book Antiqua", "Palatino Linotype", Georgia, serif;
-  text-align: center;
-  padding: 8px;
-  color: black;
-  background: radial-gradient(#e8b0cd, #eb8dbc);
-  
-} 
-.category-menu {
-  color: #F2F7F2;
-  font-size: 22px;
-  text-align: center;
-  border: 1px solid black;
-  border-bottom: 2px solid black;
-}
-.desc-box {
-  border: 1px solid black;
-  margin-bottom: 5px;
 }
